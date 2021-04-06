@@ -6,3 +6,130 @@
 	list-style: none;
 	text-decoration: none;
 }
+
+body {
+	font-family: Nunito, sans-serif;
+	color: #1c1c1c;
+}
+
+h1, h2, h3 {
+	font-family: Asap, sans-serif;
+	color: #000000;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+.botao {
+	color: #ffffff;
+	padding: 10px 30px;
+	background-color: #191970;
+	font-size: .9em;
+	border-radius: 3px;
+}
+
+/*NAVEGAÇÃO*/
+
+nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #191970;
+}
+
+nav > a {
+	color: #ffffff;
+	font-weight: 800;
+	font-size: 2rem;
+	font-family: Yellowtail, serif;
+}
+nav ul {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	width: 100%;
+}
+
+nav ul li {
+	text-align: center;
+	width: 100%;
+}
+
+nav ul li a {
+	display: inline-block;
+	color: #ffffff;
+	padding: 10px 0;
+	width: 100%;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("./Imagens/camera.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #ffffff;
+	text-align: center;
+	padding: 20px;
+}
+
+header h1 {
+	color: #ffffff;
+	margin-bottom: .6em;
+}
+
+header p {
+	margin-bottom: 2em;
+}
+
+#sobre {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #191970;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px 10px 20px 20px;
+}
+
+#sobre h2 {
+	color: #ffffff;
+	margin-bottom: .6em;
+}
+#sobre p {
+	margin-bottom: 2em;
+	max-width: 1000px;
+}
+#sobre .botao {
+	background-color: #f1f1f1;
+	color: #1c1c1c;
+}
+
+#serviços {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px;
+	
+}
+
+#serviços > div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+
+}
+
+#serviços p {
+	margin-top: 20px;
+}
+#serviços h3 {
+	margin-top: 15px;
+}
